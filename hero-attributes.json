@@ -1,0 +1,1442 @@
+{
+  "1_1": {
+    "name": "Mastodonte",
+    "health": 10800,
+    "intelligence": 120,
+    "agility": 183,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 1,
+    "level": 1,
+    "video": "./nfts/videos/mastodonte.mp4"
+  },
+  "1_2": {
+    "name": "Mastodonte",
+    "health": 36480,
+    "intelligence": 420.80002,
+    "agility": 842.4,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 2,
+    "level": 1,
+    "video": "./nfts/videos/mastodonte.mp4"
+  },
+  "1_3": {
+    "name": "Mastodonte",
+    "health": 84864,
+    "intelligence": 986.24005,
+    "agility": 2065.92,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 3,
+    "level": 1,
+    "video": "./nfts/videos/mastodonte.mp4"
+  },
+  "1_4": {
+    "name": "Mastodonte",
+    "health": 151411.2,
+    "intelligence": 1763.3921,
+    "agility": 3740.7358,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 4,
+    "level": 1,
+    "video": "./nfts/videos/mastodonte.mp4"
+  },
+  "1_5": {
+    "name": "Mastodonte",
+    "health": 232488.96,
+    "intelligence": 2709.9138,
+    "agility": 5776.589,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 5,
+    "level": 1,
+    "video": "./nfts/videos/mastodonte.mp4"
+  },
+  "1_6": {
+    "name": "Mastodonte",
+    "health": 325191.15,
+    "intelligence": 3791.9312,
+    "agility": 8101.271,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 6,
+    "level": 1,
+    "video": "./nfts/videos/mastodonte.mp4"
+  },
+  "2_1": {
+    "name": "Hellwolf",
+    "health": 16020,
+    "intelligence": 140,
+    "agility": 144,
+    "precision": 60,
+    "className": "Grass",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 1,
+    "level": 1,
+    "video": "./nfts/videos/hellwolf.mp4"
+  },
+  "2_2": {
+    "name": "Hellwolf",
+    "health": 53184,
+    "intelligence": 460,
+    "agility": 556,
+    "precision": 60,
+    "className": "Grass",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 2,
+    "level": 1,
+    "video": "./nfts/videos/hellwolf.mp4"
+  },
+  "2_3": {
+    "name": "Hellwolf",
+    "health": 123283.21200000001,
+    "intelligence": 1064,
+    "agility": 1326.4,
+    "precision": 60,
+    "className": "Grass",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 3,
+    "level": 1,
+    "video": "./nfts/videos/hellwolf.mp4"
+  },
+  "2_4": {
+    "name": "Hellwolf",
+    "health": 219730.578,
+    "intelligence": 1895.2,
+    "agility": 2383.52,
+    "precision": 60,
+    "className": "Grass",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 4,
+    "level": 1,
+    "video": "./nfts/videos/hellwolf.mp4"
+  },
+  "2_5": {
+    "name": "Hellwolf",
+    "health": 337256.484,
+    "intelligence": 2908.1602,
+    "agility": 3670.016,
+    "precision": 60,
+    "className": "Grass",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 5,
+    "level": 1,
+    "video": "./nfts/videos/hellwolf.mp4"
+  },
+  "2_6": {
+    "name": "Hellwolf",
+    "health": 471645.20399999997,
+    "intelligence": 4066.528,
+    "agility": 5140.0127,
+    "precision": 60,
+    "className": "Grass",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 6,
+    "level": 1,
+    "video": "./nfts/videos/hellwolf.mp4"
+  },
+  "3_1": {
+    "name": "Phantom Slayer",
+    "health": 10680,
+    "intelligence": 140,
+    "agility": 208,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 1,
+    "level": 1,
+    "video": "./nfts/videos/phantom-slayer.mp4"
+  },
+  "3_2": {
+    "name": "Phantom Slayer",
+    "health": 48912.006,
+    "intelligence": 460,
+    "agility": 607.2,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 2,
+    "level": 1,
+    "video": "./nfts/videos/phantom-slayer.mp4"
+  },
+  "3_3": {
+    "name": "Phantom Slayer",
+    "health": 119865.61799999999,
+    "intelligence": 1064,
+    "agility": 1367.3601,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 3,
+    "level": 1,
+    "video": "./nfts/videos/phantom-slayer.mp4"
+  },
+  "3_4": {
+    "name": "Phantom Slayer",
+    "health": 216996.50400000002,
+    "intelligence": 1895.2,
+    "agility": 2416.288,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 4,
+    "level": 1,
+    "video": "./nfts/videos/phantom-slayer.mp4"
+  },
+  "3_5": {
+    "name": "Phantom Slayer",
+    "health": 335069.238,
+    "intelligence": 2908.1602,
+    "agility": 3696.2305,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 5,
+    "level": 1,
+    "video": "./nfts/videos/phantom-slayer.mp4"
+  },
+  "3_6": {
+    "name": "Phantom Slayer",
+    "health": 469895.4,
+    "intelligence": 4066.528,
+    "agility": 5160.9844,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 6,
+    "level": 1,
+    "video": "./nfts/videos/phantom-slayer.mp4"
+  },
+  "4_1": {
+    "name": "Mage Slayer",
+    "health": 10080,
+    "intelligence": 148,
+    "agility": 211,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 1,
+    "level": 1,
+    "video": "./nfts/videos/mage-slayer.mp4"
+  },
+  "4_2": {
+    "name": "Mage Slayer",
+    "health": 48432.006,
+    "intelligence": 466.4,
+    "agility": 609.60004,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 2,
+    "level": 1,
+    "video": "./nfts/videos/mage-slayer.mp4"
+  },
+  "4_3": {
+    "name": "Mage Slayer",
+    "health": 119481.606,
+    "intelligence": 1069.12,
+    "agility": 1369.28,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 3,
+    "level": 1,
+    "video": "./nfts/videos/mage-slayer.mp4"
+  },
+  "4_4": {
+    "name": "Mage Slayer",
+    "health": 216689.298,
+    "intelligence": 1899.296,
+    "agility": 2417.8242,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 4,
+    "level": 1,
+    "video": "./nfts/videos/mage-slayer.mp4"
+  },
+  "4_5": {
+    "name": "Mage Slayer",
+    "health": 334823.436,
+    "intelligence": 2911.437,
+    "agility": 3697.4595,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 5,
+    "level": 1,
+    "video": "./nfts/videos/mage-slayer.mp4"
+  },
+  "4_6": {
+    "name": "Mage Slayer",
+    "health": 469698.75,
+    "intelligence": 4069.1497,
+    "agility": 5161.968,
+    "precision": 60,
+    "className": "Water",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 6,
+    "level": 1,
+    "video": "./nfts/videos/mage-slayer.mp4"
+  },
+  "5_1": {
+    "name": "Soul Chaser",
+    "health": 10920,
+    "intelligence": 191,
+    "agility": 153,
+    "precision": 70,
+    "className": "Dark",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 1,
+    "level": 1,
+    "video": "./nfts/videos/soul-chaser.mp4"
+  },
+  "5_2": {
+    "name": "Soul Chaser",
+    "health": 49104,
+    "intelligence": 500.8,
+    "agility": 563.2,
+    "precision": 70,
+    "className": "Dark",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 2,
+    "level": 1,
+    "video": "./nfts/videos/soul-chaser.mp4"
+  },
+  "5_3": {
+    "name": "Soul Chaser",
+    "health": 120019.20599999999,
+    "intelligence": 1096.64,
+    "agility": 1332.16,
+    "precision": 70,
+    "className": "Dark",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 3,
+    "level": 1,
+    "video": "./nfts/videos/soul-chaser.mp4"
+  },
+  "5_4": {
+    "name": "Soul Chaser",
+    "health": 217119.372,
+    "intelligence": 1921.312,
+    "agility": 2388.128,
+    "precision": 70,
+    "className": "Dark",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 4,
+    "level": 1,
+    "video": "./nfts/videos/soul-chaser.mp4"
+  },
+  "5_5": {
+    "name": "Soul Chaser",
+    "health": 335167.5,
+    "intelligence": 2929.0498,
+    "agility": 3673.7024,
+    "precision": 70,
+    "className": "Dark",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 5,
+    "level": 1,
+    "video": "./nfts/videos/soul-chaser.mp4"
+  },
+  "5_6": {
+    "name": "Soul Chaser",
+    "health": 469974,
+    "intelligence": 4083.24,
+    "agility": 5142.962,
+    "precision": 70,
+    "className": "Dark",
+    "sex": "Female",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 6,
+    "level": 1,
+    "video": "./nfts/videos/soul-chaser.mp4"
+  },
+  "6_1": {
+    "name": "Monkey King",
+    "health": 11760,
+    "intelligence": 152,
+    "agility": 248,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 1,
+    "level": 1,
+    "video": "./nfts/videos/monkey-king.mp4"
+  },
+  "6_2": {
+    "name": "Monkey King",
+    "health": 49776.002400000005,
+    "intelligence": 469.6,
+    "agility": 639.2,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 2,
+    "level": 1,
+    "video": "./nfts/videos/monkey-king.mp4"
+  },
+  "6_3": {
+    "name": "Monkey King",
+    "health": 120556.81199999999,
+    "intelligence": 1071.68,
+    "agility": 1392.9601,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 3,
+    "level": 1,
+    "video": "./nfts/videos/monkey-king.mp4"
+  },
+  "6_4": {
+    "name": "Monkey King",
+    "health": 217549.452,
+    "intelligence": 1901.344,
+    "agility": 2436.768,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 4,
+    "level": 1,
+    "video": "./nfts/videos/monkey-king.mp4"
+  },
+  "6_5": {
+    "name": "Monkey King",
+    "health": 335511.564,
+    "intelligence": 2913.0752,
+    "agility": 3712.6145,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 5,
+    "level": 1,
+    "video": "./nfts/videos/monkey-king.mp4"
+  },
+  "6_6": {
+    "name": "Monkey King",
+    "health": 470249.28,
+    "intelligence": 4070.4602,
+    "agility": 5174.092,
+    "precision": 60,
+    "className": "Light",
+    "sex": "Male",
+    "skills": {
+      "$id": "2",
+      "$values": [
+        {
+          "$id": "3",
+          "name": "water dark",
+          "type": "active"
+        },
+        {
+          "$ref": "3"
+        },
+        {
+          "$id": "4",
+          "name": "fire water light",
+          "type": "passive"
+        },
+        {
+          "$id": "5",
+          "name": "fire water thunder grass ",
+          "type": "passive"
+        },
+        {
+          "$id": "6",
+          "name": "fire grass light dark ",
+          "type": "passive"
+        }
+      ]
+    },
+    "star": 6,
+    "level": 1,
+    "video": "./nfts/videos/monkey-king.mp4"
+  }
+}

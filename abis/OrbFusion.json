@@ -1,0 +1,367 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_orbNft",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_holyPackage",
+				"type": "address"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_classBaseRate",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_classAddRate",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "bool",
+				"name": "isSuccess",
+				"type": "bool"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256[]",
+				"name": "orbIds",
+				"type": "uint256[]"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "newOrbId",
+				"type": "uint256"
+			}
+		],
+		"name": "Fusion",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "a",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "b",
+				"type": "string"
+			}
+		],
+		"name": "compareStrings",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "deadAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "feeAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_orbIds",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "_holyPackageIds",
+				"type": "uint256[]"
+			}
+		],
+		"name": "fusion",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "_rarity",
+				"type": "uint8"
+			}
+		],
+		"name": "getFee",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "_baseRate",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_addRate",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_numberHolyPackage",
+				"type": "uint256"
+			}
+		],
+		"name": "getSuccessRate",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "holyPackage",
+		"outputs": [
+			{
+				"internalType": "contract IHolyPackage",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "orbClasses",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "orbNft",
+		"outputs": [
+			{
+				"internalType": "contract IOrbNFT",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "renounceOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"name": "requirements",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "baseRate",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint8",
+				"name": "addRate",
+				"type": "uint8"
+			},
+			{
+				"internalType": "address",
+				"name": "token",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "tokenRequire",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "holyPackageMaxAmount",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_holyType",
+				"type": "string"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_orbClass",
+				"type": "uint8"
+			}
+		],
+		"name": "setOrbClasses",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "_rarity",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_baseRate",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_addRate",
+				"type": "uint8"
+			},
+			{
+				"internalType": "address",
+				"name": "_token",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_tokenRequire",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_holyPackageMaxAmount",
+				"type": "uint8"
+			}
+		],
+		"name": "setRequirement",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

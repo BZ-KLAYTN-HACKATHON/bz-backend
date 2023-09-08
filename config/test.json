@@ -1,0 +1,22 @@
+{
+  "rpc": "https://public-en-cypress.klaytn.net",
+  "premium_rpc": "https://public-en-cypress.klaytn.net",
+  "rpc_options": [
+    "https://public-en-cypress.klaytn.net"
+  ],
+  "SERVER_PORT": "4003",
+  "ORIGIN_BLOCK": "131231214",
+  "CONTRACTS": {
+    "SHOP_ADDRESS": "0xE57F6120591dCAa0da6EcaA32cCfAfbA2cb2a141",
+    "MARKET_ADDRESS": "0x7C429Be723F36871c1027776E88baD2EB571fDD2",
+    "NFT_ADDRESS": "0xE81DD2556182F21c8A2b272A1f80287315A8262B"
+  },
+  "chainId": "56",
+  "HOST": "http://51.158.100.126",
+  "mongo": {
+    "uri": "mongodb://localhost:27017/bz-test"
+  },
+  "SYNC_SERVER_KEY": {
+    "HERO_FI": "O5szYfhHZXki2r34MBfKBSQJhWRPZ53I"
+  }
+}

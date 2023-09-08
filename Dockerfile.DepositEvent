@@ -1,0 +1,7 @@
+FROM node:16.14-alpine
+
+WORKDIR /bz-deposit
+COPY package.json .
+RUN yarn
+COPY . .
+CMD yarn start:depositevent

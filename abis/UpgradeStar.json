@@ -1,0 +1,376 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_nft",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_cnft",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_feeAddress",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "merkleRoot",
+				"type": "bytes32"
+			}
+		],
+		"name": "MerkleRootUpdated",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "renounceOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "_star",
+				"type": "uint8"
+			},
+			{
+				"internalType": "address",
+				"name": "_token1",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_token1Require",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_token2",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_token2Require",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_numberHeroRequire",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_successPercent",
+				"type": "uint8"
+			}
+		],
+		"name": "setRequirement",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "heroId",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint8",
+				"name": "newStar",
+				"type": "uint8"
+			},
+			{
+				"indexed": false,
+				"internalType": "bool",
+				"name": "isSuccess",
+				"type": "bool"
+			}
+		],
+		"name": "StarUpgrade",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_newAddress",
+				"type": "address"
+			}
+		],
+		"name": "updateCnft",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_newAddress",
+				"type": "address"
+			}
+		],
+		"name": "updateFeeAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "_merkleRoot",
+				"type": "bytes32"
+			}
+		],
+		"name": "updateMerkleRoot",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_newAddress",
+				"type": "address"
+			}
+		],
+		"name": "updateNft",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_heroIds",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_level",
+				"type": "uint8"
+			},
+			{
+				"internalType": "bytes32[]",
+				"name": "_proof",
+				"type": "bytes32[]"
+			}
+		],
+		"name": "upgradeStar",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "cnft",
+		"outputs": [
+			{
+				"internalType": "contract CNFT",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "deadAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "feeAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "_currentStar",
+				"type": "uint8"
+			}
+		],
+		"name": "getRequirement",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "token1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "token1Require",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token2",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "token2Require",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "numberHeroRequire",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "successPercent",
+						"type": "uint8"
+					}
+				],
+				"internalType": "struct UpgradeStar.Requirement",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "merkleRoot",
+		"outputs": [
+			{
+				"internalType": "bytes32",
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "nft",
+		"outputs": [
+			{
+				"internalType": "contract INFT",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_heroId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_level",
+				"type": "uint8"
+			},
+			{
+				"internalType": "bytes32[]",
+				"name": "_proof",
+				"type": "bytes32[]"
+			}
+		],
+		"name": "verifyMerkleProof",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "valid",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
