@@ -1,8 +1,8 @@
 {
   "rpc": "https://bsc-dataseed1.defibit.io/",
-  "premium_rpc": "https://nd-278-732-517.p2pify.com/fb58da21ecf28b36fad6a6528572a6b2",
+  "premium_rpc": "https://bsc-dataseed1.defibit.io/",
   "rpc_options": [
-    "https://nd-278-732-517.p2pify.com/fb58da21ecf28b36fad6a6528572a6b2"
+    "https://bsc-dataseed1.defibit.io/"
   ],
   "SERVER_PORT": "4006",
   "SYNC_SERVER_PORT": "5006",
